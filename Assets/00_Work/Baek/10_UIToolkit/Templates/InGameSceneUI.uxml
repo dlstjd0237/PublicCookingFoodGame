@@ -1,0 +1,12 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/00_Work/Baek/10_UIToolkit/USS/MainSceneUI.uss?fileID=7433441132597879392&amp;guid=6cb493d1411a7f547a1114fb3ca4d9a8&amp;type=3#MainSceneUI" />
+    <ui:VisualElement name="main_setting_ui_btn_contain-box" class="ingame_ui_btn_contain-box" style="transition-duration: 0.4s;">
+        <ui:VisualElement name="main_ui_setting_contain-box" class="main_ui_setting_contain-box on" style="background-image: url(&apos;project://database/Assets/Heat%20-%20Complete%20Modern%20UI/Textures/Filters/Violet.png?fileID=21300000&amp;guid=1000da0bd7cb4ba42a55820ad65b1254&amp;type=3#Violet&apos;); -unity-background-image-tint-color: rgb(84, 68, 39); border-left-color: rgb(214, 214, 214); border-right-color: rgb(214, 214, 214); border-top-color: rgb(214, 214, 214); border-bottom-color: rgb(214, 214, 214); border-top-width: 4px; border-right-width: 4px; border-bottom-width: 4px; border-left-width: 4px; transition-duration: 0.4s;">
+            <ui:SliderInt picking-mode="Ignore" label="전체 음량" value="4" high-value="100" name="main_ui_setting_master_volume-slider" low-value="0" class="main_ui_setting-slider" />
+            <ui:SliderInt picking-mode="Ignore" label="음악" value="42" high-value="100" name="main_ui_setting_music_volume-slider" class="main_ui_setting-slider" />
+            <ui:SliderInt picking-mode="Ignore" label="환경" value="42" high-value="100" name="main_ui_setting_sfx_voluem-slider" class="main_ui_setting-slider" />
+            <ui:EnumField label="스크린 모드 :" type="GameScreenModeType, Assembly-CSharp" name="main_ui_screen_type-field" include-obsolete-values="true" value="전체화면" class="main_ui_screen_type-field" style="font-size: 47px;" />
+            <ui:Button text="메인메뉴" parse-escape-sequences="true" display-tooltip-when-elided="true" name="main_menu-btn" class="main_menu-btn" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,10 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
+    <ui:VisualElement name="main_setting_ui_btn_contain-box" class="main_ui_btn_contain-box" style="height: 100%;">
+        <ui:VisualElement name="main_ui_setting_contain-box" class="main_ui_setting_contain-box">
+            <ui:SliderInt picking-mode="Ignore" label="전체 음량" value="4" high-value="100" name="main_ui_setting_master_volume-slider" low-value="0" class="main_ui_setting-slider" />
+            <ui:SliderInt picking-mode="Ignore" label="음악" value="42" high-value="100" name="main_ui_setting_music_volume-slider" class="main_ui_setting-slider" />
+            <ui:SliderInt picking-mode="Ignore" label="환경" value="42" high-value="100" name="main_ui_setting_sfx_voluem-slider" class="main_ui_setting-slider" />
+            <ui:EnumField label="스크린 모드 :" type="GameScreenModeType, Assembly-CSharp" name="main_ui_screen_type-field" include-obsolete-values="true" value="전체화면" class="main_ui_screen_type-field" style="font-size: 47px;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,64 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/00_Work/Baek/10_UIToolkit/USS/MainSceneUI.uss?fileID=7433441132597879392&amp;guid=6cb493d1411a7f547a1114fb3ca4d9a8&amp;type=3#MainSceneUI" />
+    <Style src="project://database/Assets/00_Work/Baek/10_UIToolkit/USS/OptionUI.uss?fileID=7433441132597879392&amp;guid=e3d5cf021c3a4a145a96651b8f60c3ac&amp;type=3#OptionUI" />
+    <Style src="project://database/Assets/00_Work/Baek/10_UIToolkit/USS/Scrollview.uss?fileID=7433441132597879392&amp;guid=866a39c7e4fd854439c5d887c9cab8f6&amp;type=3#Scrollview" />
+    <Style src="project://database/Assets/00_Work/Baek/10_UIToolkit/USS/TitleUI.uss?fileID=7433441132597879392&amp;guid=89bc5a44fc81eef4ab59586bc48c618f&amp;type=3#TitleUI" />
+    <ui:VisualElement name="ui_contain-box" class="ui_contain-box on" style="transition-duration: 1.5s;">
+        <ui:VisualElement name="main_ui_tabbar_contain-box" class="main_ui_tabbar_contain-box">
+            <ui:VisualElement name="main_ui_home_btn-box" class="main_ui_tabbar_btn-box" style="transition-duration: 0.2s;">
+                <ui:Button text="HOME" parse-escape-sequences="true" display-tooltip-when-elided="true" name="main_ui_home_tabbar-btn" class="main_ui_tabbar-btn" style="transition-duration: 0.1s;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="main_ui_chapters_btn-box" class="main_ui_tabbar_btn-box" style="transition-duration: 0.2s;">
+                <ui:Button text="CHAPTERS" parse-escape-sequences="true" display-tooltip-when-elided="true" name="main_ui_chapters_tabbar-btn" class="main_ui_tabbar-btn" style="transition-duration: 0.1s;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="main_ui_setting_btn-box" class="main_ui_tabbar_btn-box" style="transition-duration: 0.2s;">
+                <ui:Button text="SETTING" parse-escape-sequences="true" display-tooltip-when-elided="true" name="main_ui_setting_tabbar-btn" class="main_ui_tabbar-btn" style="transition-duration: 0.1s;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="main_ui_contain-box" class="main_ui_contain-box" style="transition-duration: 0.2s; transition-timing-function: ease-out-cubic;">
+            <ui:VisualElement name="main_home_ui_btn_contain-box" class="main_ui_btn_contain-box" style="height: 100%;">
+                <ui:VisualElement name="main_ui_home_contain-box" class="main_ui_home_contain-box">
+                    <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="main_ui_tutoria_chapter-btn" class="main_ui_home_chapter-btn" style="height: 40%; transition-duration: 0.1s;">
+                        <ui:VisualElement name="main_ui_home_chapter_image-box" class="main_ui_home_chapter_image-box">
+                            <ui:Label tabindex="-1" text="튜토리얼" parse-escape-sequences="true" display-tooltip-when-elided="true" name="main_ui_chapter_name-label" class="main_ui_chapter_name-label" />
+                        </ui:VisualElement>
+                    </ui:Button>
+                    <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="main_ui_chapter_level_one-btn" class="main_ui_home_chapter-btn" style="height: 40%; transition-duration: 0.1s;">
+                        <ui:VisualElement name="main_ui_home_chapter_image-box" class="main_ui_home_chapter_image-box" style="background-image: url(&apos;project://database/Assets/00_Work/Baek/02_Sprites/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202024-04-17%20182000.png?fileID=21300000&amp;guid=6a9116f336b146349a0ccb252c02c895&amp;type=3#스크린샷 2024-04-17 182000&apos;);">
+                            <ui:Label tabindex="-1" text="Easy" parse-escape-sequences="true" display-tooltip-when-elided="true" name="main_ui_chapter_name-label" class="main_ui_chapter_name-label" />
+                        </ui:VisualElement>
+                    </ui:Button>
+                </ui:VisualElement>
+                <ui:VisualElement name="main_ui_home_contain-box" class="main_ui_home_contain-box">
+                    <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="main_ui_chapter_arr-btn" class="main_ui_home_chapter-btn" style="height: 90%; transition-duration: 0.1s;">
+                        <ui:VisualElement name="main_ui_home_chapter_image-box" class="main_ui_home_chapter_image-box" style="background-image: url(&apos;project://database/Assets/Heat%20-%20Complete%20Modern%20UI/Textures/Placeholders/Achievement/Achievement%202.png?fileID=21300000&amp;guid=e201e3c4219daf34d8bb4a04ad30c96b&amp;type=3#Achievement 2&apos;);">
+                            <ui:Label tabindex="-1" text="챕터 목록" parse-escape-sequences="true" display-tooltip-when-elided="true" name="main_ui_chapter_name-label" enable-rich-text="false" class="main_ui_chapter_name-label" />
+                        </ui:VisualElement>
+                    </ui:Button>
+                </ui:VisualElement>
+                <ui:VisualElement name="main_ui_home_contain-box" class="main_ui_home_contain-box">
+                    <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="main_ui_setting-btn" class="main_ui_home_chapter-btn" style="height: 90%; transition-duration: 0.1s;">
+                        <ui:VisualElement name="main_ui_home_chapter_image-box" class="main_ui_home_chapter_image-box" style="background-image: url(&apos;project://database/Assets/Heat%20-%20Complete%20Modern%20UI/Textures/Filters/Mice.png?fileID=21300000&amp;guid=9904a6012c66bae439e26bc5fc4ff04e&amp;type=3#Mice&apos;);">
+                            <ui:Label tabindex="-1" text="게임 세팅" parse-escape-sequences="true" display-tooltip-when-elided="true" name="main_ui_chapter_name-label" class="main_ui_chapter_name-label" />
+                        </ui:VisualElement>
+                    </ui:Button>
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="main_chapter_ui_btn_contain-box" class="main_ui_btn_contain-box" style="height: 100%;">
+                <ui:ScrollView mode="Horizontal" touch-scroll-type="Clamped" horizontal-scroller-visibility="Auto" nested-interaction-kind="Default" name="main_ui_chapter_contin-scrollview" vertical-scroller-visibility="Hidden" focusable="false" class="main_ui_chapter_contin-scrollview" />
+            </ui:VisualElement>
+            <ui:VisualElement name="main_setting_ui_btn_contain-box" class="main_ui_btn_contain-box" style="height: 100%;">
+                <ui:VisualElement name="main_ui_setting_contain-box" class="main_ui_setting_contain-box">
+                    <ui:SliderInt picking-mode="Ignore" label="전체 음량" value="4" high-value="100" name="main_ui_setting_master_volume-slider" low-value="0" class="main_ui_setting-slider" />
+                    <ui:SliderInt picking-mode="Ignore" label="음악" value="42" high-value="100" name="main_ui_setting_music_volume-slider" class="main_ui_setting-slider" />
+                    <ui:SliderInt picking-mode="Ignore" label="환경" value="42" high-value="100" name="main_ui_setting_sfx_voluem-slider" class="main_ui_setting-slider" />
+                    <ui:EnumField label="스크린 모드 :" type="GameScreenModeType, Assembly-CSharp" name="main_ui_screen_type-field" include-obsolete-values="true" value="전체화면" class="main_ui_screen_type-field" style="font-size: 47px;" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+    <ui:VisualElement name="title_scene-box" class="title_sceen-box on" style="transition-duration: 1.5s;">
+        <ui:VisualElement name="title_scene_ui-icon" class="title_scene_ui-icon" />
+        <ui:Label tabindex="-1" text="Touch To Start" parse-escape-sequences="true" display-tooltip-when-elided="true" name="title_scene_ui-Label" class="title_scene_ui-Label" />
+    </ui:VisualElement>
+</ui:UXML>

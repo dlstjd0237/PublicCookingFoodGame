@@ -1,0 +1,10 @@
+.option_contain-box {
+    flex-grow: 1;
+    position: absolute;
+    width: 1200px;
+    height: 700px;
+    background-color: rgba(0, 0, 0, 0);
+    left: 350px;
+    top: 175px;
+    background-image: url('project://database/Assets/Heat%20-%20Complete%20Modern%20UI/Textures/Borders/Flat/Flat%20Outline%20-%201x.png?fileID=21300000&guid=9be191fe2f82f674d84e02c91fea2bd7&type=3#Flat Outline - 1x');
+}

@@ -1,0 +1,5 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="mobile_ui_contain-box" style="flex-grow: 1;">
+        <ui:VisualElement name="mobile_ui_image_contain-box" style="flex-grow: 0; background-image: url(&apos;project://database/Assets/00_Work/Baek/02_Sprites/iphone-160307_1280.png?fileID=21300000&amp;guid=bd28da311fcc0b04597102ff2f30b577&amp;type=3#iphone-160307_1280&apos;); width: 300px; height: 507px;" />
+    </ui:VisualElement>
+</ui:UXML>

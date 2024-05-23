@@ -1,0 +1,243 @@
+.ui_contain-box {
+    flex-grow: 1;
+    flex-direction: column;
+    background-image: url('project://database/Assets/Heat%20-%20Complete%20Modern%20UI/Textures/Placeholders/Background/Credits%20Placeholder.png?fileID=21300000&guid=f52dbec2b1338ea479a11e6d2735e315&type=3#Credits Placeholder');
+    -unity-background-image-tint-color: rgba(255, 255, 255, 0.95);
+}
+
+.ui_contain-box.on {
+    opacity: 0;
+    display: none;
+    overflow: hidden;
+    visibility: hidden;
+}
+
+.main_ui_btn_contain-box {
+    width: 1920px;
+    height: 88%;
+    color: rgb(94, 94, 94);
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    position: relative;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    margin-right: 0;
+    background-color: rgba(255, 117, 117, 0);
+    align-items: center;
+    align-self: auto;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.main_ui_tabbar_contain-box {
+    flex-grow: 0;
+    height: 12%;
+    width: 100%;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    align-self: auto;
+}
+
+.main_ui_tabbar_btn-box {
+    margin-left: 60px;
+    margin-right: 0;
+    width: 200px;
+    height: 60px;
+    background-image: url('project://database/Assets/Heat%20-%20Complete%20Modern%20UI/Textures/Borders/Flat/Flat%20Outline%20-%201x.png?fileID=21300000&guid=9be191fe2f82f674d84e02c91fea2bd7&type=3#Flat Outline - 1x');
+    -unity-slice-left: 0;
+    -unity-slice-top: 0;
+    -unity-slice-right: 0;
+    -unity-slice-bottom: 0;
+    background-color: rgba(0, 0, 0, 0);
+    -unity-background-scale-mode: scale-and-crop;
+    color: rgb(255, 255, 255);
+    -unity-font-definition: initial;
+    -unity-font: url('project://database/Assets/00_Work/Baek/06_Fonts/%EA%B0%90%ED%83%84%EB%A1%9C%EB%93%9C%EB%8F%8B%EC%9B%80%EC%B2%B4%20Regular.otf?fileID=12800000&guid=1baaf64ce5f04304ca04e9eff7250ad4&type=3#감탄로드돋움체 Regular');
+    font-size: 28px;
+    -unity-font-style: normal;
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    border-left-width: 0;
+    transition-duration: 0.1s;
+    justify-content: center;
+    align-self: auto;
+    align-items: center;
+    -unity-slice-scale: 0.3px;
+    margin-top: 30px;
+}
+
+.main_ui_tabbar-btn {
+    background-color: rgba(0, 0, 0, 0);
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+    width: 180px;
+    height: 40px;
+    top: 0;
+}
+
+.main_ui_tabbar-btn:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+.main_ui_home_contain-box {
+    background-color: rgba(115, 110, 21, 0);
+    width: 26%;
+    height: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.main_ui_home_chapter-btn {
+    background-color: rgba(248, 246, 20, 0);
+    background-image: url('project://database/Assets/Heat%20-%20Complete%20Modern%20UI/Textures/Borders/Flat/Flat%20Outline%20-%203x.png?fileID=21300000&guid=f9859e7a665a7cc489dc241847d587b4&type=3#Flat Outline - 3x');
+    width: 105%;
+    height: 45%;
+    -unity-slice-scale: 1px;
+    -unity-slice-left: 0;
+    -unity-slice-top: 0;
+    -unity-slice-right: 0;
+    -unity-slice-bottom: 0;
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+}
+
+.main_ui_home_chapter-btn:hover {
+    scale: 1.05 1.05;
+    -unity-background-image-tint-color: rgb(255, 237, 186);
+}
+
+.main_ui_home_chapter_image-box {
+    flex-grow: 1;
+    width: 100%;
+    height: 100%;
+    background-image: url('project://database/Assets/00_Work/Baek/02_Sprites/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202024-04-17%20182000.png?fileID=21300000&guid=6a9116f336b146349a0ccb252c02c895&type=3#스크린샷 2024-04-17 182000');
+    justify-content: flex-end;
+    font-size: 70px;
+    color: rgb(255, 255, 255);
+    -unity-background-image-tint-color: rgb(125, 125, 125);
+}
+
+.main_ui_chapter_name-label {
+    -unity-text-align: upper-left;
+    -unity-font: url('project://database/Assets/00_Work/Baek/06_Fonts/%EA%B0%90%ED%83%84%EB%A1%9C%EB%93%9C%EB%8F%8B%EC%9B%80%EC%B2%B4%20Regular.otf?fileID=12800000&guid=1baaf64ce5f04304ca04e9eff7250ad4&type=3#감탄로드돋움체 Regular');
+    -unity-font-definition: initial;
+    left: 15px;
+}
+
+.main_ui_contain-box {
+    flex-grow: 1;
+    width: 300%;
+    flex-direction: row;
+}
+
+.main_ui_setting-slider {
+    width: 1600px;
+    -unity-font-definition: initial;
+    -unity-font: url('project://database/Assets/00_Work/Baek/06_Fonts/%EA%B0%90%ED%83%84%EB%A1%9C%EB%93%9C%EB%8F%8B%EC%9B%80%EC%B2%B4%20Regular.otf?fileID=12800000&guid=1baaf64ce5f04304ca04e9eff7250ad4&type=3#감탄로드돋움체 Regular');
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    -unity-font-style: bold;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.main_ui_setting-slider > .unity-slider-int__input {
+    width: 1550px;
+}
+
+.main_ui_screen_type-field {
+    width: 881px;
+    -unity-font: url('project://database/Assets/00_Work/Baek/06_Fonts/%EA%B0%90%ED%83%84%EB%A1%9C%EB%93%9C%EB%8F%8B%EC%9B%80%EC%B2%B4%20Regular.otf?fileID=12800000&guid=1baaf64ce5f04304ca04e9eff7250ad4&type=3#감탄로드돋움체 Regular');
+    -unity-font-definition: initial;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    left: -359px;
+    -unity-font-style: bold;
+}
+
+.main_ui_screen_type-field > .unity-base-field__input {
+    -unity-font: url('project://database/Assets/00_Work/Baek/06_Fonts/%EA%B0%90%ED%83%84%EB%A1%9C%EB%93%9C%EB%8F%8B%EC%9B%80%EC%B2%B4%20Regular.otf?fileID=12800000&guid=1baaf64ce5f04304ca04e9eff7250ad4&type=3#감탄로드돋움체 Regular');
+    -unity-font-definition: initial;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    -unity-font-style: bold;
+    background-color: rgba(255, 255, 255, 0);
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgb(255, 255, 255);
+    border-bottom-width: 5px;
+}
+
+.ingame_ui_btn_contain-box {
+    width: 1920px;
+    height: 100%;
+    color: rgb(94, 94, 94);
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    position: relative;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    margin-right: 0;
+    background-color: rgba(255, 117, 117, 0);
+    align-items: center;
+    align-self: auto;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.ingame_ui_btn_contain-box.on {
+    opacity: 0;
+}
+
+.main_ui_setting_contain-box {
+    flex-grow: 0;
+    background-color: rgba(255, 0, 0, 0);
+    height: 900px;
+    width: 1800px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.main_ui_setting_contain-box.on {
+    opacity: 0;
+}
+
+#main_menu-btn:hover {
+    border-bottom-color: rgb(255, 255, 255);
+}
+
+.main_menu-btn {
+    position: absolute;
+    top: 702px;
+    left: 1197px;
+    height: 120px;
+    width: 500px;
+    background-image: none;
+    background-color: rgba(188, 188, 188, 0);
+    border-left-color: rgba(149, 149, 149, 0);
+    border-right-color: rgba(149, 149, 149, 0);
+    border-top-color: rgba(149, 149, 149, 0);
+    border-bottom-color: rgba(255, 255, 255, 0);
+    border-bottom-width: 5px;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-left-width: 0;
+    -unity-font-definition: initial;
+    -unity-font: url('project://database/Assets/00_Work/Baek/06_Fonts/%EA%B0%90%ED%83%84%EB%A1%9C%EB%93%9C%EB%8F%8B%EC%9B%80%EC%B2%B4%20Regular.otf?fileID=12800000&guid=1baaf64ce5f04304ca04e9eff7250ad4&type=3#감탄로드돋움체 Regular');
+    color: rgb(255, 255, 255);
+    font-size: 96px;
+    -unity-font-style: bold;
+    transition-duration: 0.3s;
+}

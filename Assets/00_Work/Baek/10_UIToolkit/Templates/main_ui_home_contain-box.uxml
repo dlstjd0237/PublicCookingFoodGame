@@ -1,0 +1,11 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/00_Work/Baek/10_UIToolkit/USS/MainSceneUI.uss?fileID=7433441132597879392&amp;guid=6cb493d1411a7f547a1114fb3ca4d9a8&amp;type=3#MainSceneUI" />
+    <ui:VisualElement name="main_ui_home_contain-box" class="main_ui_home_contain-box" style="width: 350px; margin-right: 50px; margin-left: 50px;">
+        <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="main_ui_home_chapter-btn" class="main_ui_home_chapter-btn" style="height: 90%; transition-duration: 0.1s;">
+            <ui:VisualElement name="main_ui_home_chapter_image-box" class="main_ui_home_chapter_image-box" style="background-image: url(&apos;project://database/Assets/Heat%20-%20Complete%20Modern%20UI/Textures/Placeholders/Achievement/Achievement%202.png?fileID=21300000&amp;guid=e201e3c4219daf34d8bb4a04ad30c96b&amp;type=3#Achievement 2&apos;);">
+                <ui:Label tabindex="-1" text="최고기록 : 10:19" parse-escape-sequences="true" display-tooltip-when-elided="true" name="best_score-label" style="font-size: 33px; -unity-text-align: middle-left; -unity-font-definition: initial; -unity-font: url(&apos;project://database/Assets/00_Work/Baek/06_Fonts/%EA%B0%90%ED%83%84%EB%A1%9C%EB%93%9C%EB%8F%8B%EC%9B%80%EC%B2%B4%20Regular.otf?fileID=12800000&amp;guid=1baaf64ce5f04304ca04e9eff7250ad4&amp;type=3#감탄로드돋움체 Regular&apos;); border-bottom-color: rgb(255, 255, 255); border-bottom-width: 2px;" />
+                <ui:Label tabindex="-1" text="레벨 1" parse-escape-sequences="true" display-tooltip-when-elided="true" name="main_ui_chapter_name-label" enable-rich-text="false" class="main_ui_chapter_name-label" />
+            </ui:VisualElement>
+        </ui:Button>
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/00_Work/Baek/00_Scene/00_MainScene/NavMesh-City.asset.meta
+guid: 9e4b4fdba21b4c744a719cc240382f18
+========
+guid: 92033e725f210574492d6bfe4cf49b04
+>>>>>>>> main:Assets/00_Work/InHae/InHae_NPC/NavMesh-Humanoid.asset.meta
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 23800000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

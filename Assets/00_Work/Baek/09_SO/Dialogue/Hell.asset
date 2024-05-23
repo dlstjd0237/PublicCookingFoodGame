@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5aa8705e5c54ac47be2265f2f5d964e, type: 3}
+  m_Name: Hell
+  m_EditorClassIdentifier: 
+  _speakerName: "\uC0AC\uC7A5\uB2D8"
+  _dialogueInfo:
+  - "\uB0B4\uAC00 \uC624\uAE30 \uC804\uAE4C\uC9C0 \uD3C9\uC810\uC744 50%\uC774\uC0C1\uC744
+    \uC720\uC9C0\uD55C\uB2E4\uBA74."
+  - "\uB108\uB97C \uACE0\uC6A9\uD560\uAC70\uACE0"
+  - "50% \uC544\uB798\uB85C \uB5A8\uC5B4\uC838 \uC788\uB2E4\uBA74 \uB110 \uD574\uACE0\uD560\uAC83\uC774\uB2E4."
+  _speakSoundClip: {fileID: 8300000, guid: a7dfb0df78b44b34182bdf14175eb50b, type: 3}
